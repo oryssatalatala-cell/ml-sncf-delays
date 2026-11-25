@@ -1,0 +1,10 @@
+# raw data is downloaded by the notebook, not versioned
+data/raw/*.csv
+data/raw/download_info.txt
+# python / jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
