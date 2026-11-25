@@ -1,26 +1,22 @@
-# CONTRIBUTIONS (ownership matrix)
+# CONTRIBUTIONS
 
 Group: Group_XX
-Rule: 4 distinct pipeline modules, one owner per student. Every owner must be able to explain and defend every line of their module.
 
-| Module | Owner | Main files / notebook sections | Week 2 tasks | Reviewed by |
-|--------|-------|-------------------------------|--------------|-------------|
-| 1. Data ingestion and cleaning | (name) | Notebook sections 1 and 2 | Load CSV, column mapping, cleaning rules, cleaning log | (name) |
-| 2. EDA and feature engineering | (name) | Notebook sections 3 and 4 | Missing values, target analysis, lag features, leakage audit | (name) |
-| 3. Split and baselines | (name) | Notebook sections 5 and 6 | Temporal split, B0 to B4, alpha selection on validation | (name) |
-| 4. Evaluation, error analysis and report | (name) | Notebook sections 6.1, 7, 8 and `report/` | Metrics, error analysis, classification view, written report | (name) |
+## Team members
+- Oryssa Stella TALATALA
+- Pierre-Olivier WAFO Bakam
+- Hugo HOUPPE
+- Yehor Nalyvaiko
 
-If the group has fewer than 4 students, one student owns two modules and says so here.
+## How we worked
+All four members worked on every part of the pipeline: data cleaning, EDA and feature engineering, temporal split and baselines, evaluation and error analysis. At the end we pooled our work and consolidated it together into the final notebook and the repository.
 
-## Individual contribution statements
-Each student writes 3 to 5 lines in their own words: what they did, one decision they made and why, one thing they changed after review.
+## Pipeline modules
+| Module | Notebook sections | Owner |
+|--------|-------------------|-------|
+| 1. Data ingestion and cleaning | 1 and 2 | Shared by all four members |
+| 2. EDA and feature engineering | 3 and 4 | Shared by all four members |
+| 3. Split and baselines | 5 and 6 | Shared by all four members |
+| 4. Evaluation, error analysis and report | 6.1, 7, 8 and `report/` | Shared by all four members |
 
-- **(name):**
-- **(name):**
-- **(name):**
-- **(name):**
-
-## Review log
-| Date | Reviewer | Module reviewed | Issue found | Resolved? |
-|------|----------|-----------------|-------------|-----------|
-|      |          |                 |             |           |
+Each member can explain and defend every module.

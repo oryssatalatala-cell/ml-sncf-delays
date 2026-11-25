@@ -4,10 +4,11 @@ Rule from the lab: claiming that the AI made zero errors scores 0/5. Log only fl
 
 | # | Student | Where (file / notebook cell) | What the AI output said or did | Why it is wrong or risky | How you detected it | Fix applied |
 |---|---------|------------------------------|--------------------------------|--------------------------|---------------------|-------------|
-| 1 | Stella | Notebook section 1 (load) | First version read the data from a local path (`../data/raw/...csv`) and gave no source URL, although the assistant had recommended the dataset | The notebook was not reproducible and pushed the data collection onto the user | Noticed by Stella when reading the notebook | Added `DATA_URL`, an automatic download with checks and `download_info.txt`, and a clear error with manual instructions |
-| 2 | Stella (found by the AI during its own testing, to be reviewed by Stella) | Notebook section 2 (cleaning) | Rows with station `0` were relabelled `UNKNOWN` and kept; duplicate-key aggregation then summed rows of different real routes into one fake route | Corrupts route identity and the lag features built per route | The cleaning log showed "rows involved in duplicated keys (aggregated)" greater than 0 on test data | Rows with an unusable station are now dropped and counted in the cleaning log |
-| 3 | (name) |                              |                                |                          |                     |             |
-| 4 | (name) |                              |                                |                          |                     |             |
+| 1 | Oryssa Stella TALATALA | Notebook section 1 (load) | First version read the data from a local path (`../data/raw/...csv`) and gave no source URL, although the assistant had recommended the dataset | The notebook was not reproducible and pushed the data collection onto the user | Noticed by Stella when reading the notebook | Added `DATA_URL`, an automatic download with checks and `download_info.txt`, and a clear error with manual instructions |
+| 2 | Oryssa Stella TALATALA (found by the AI during its own testing) | Notebook section 2 (cleaning) | Rows with station `0` were relabelled `UNKNOWN` and kept; duplicate-key aggregation then summed rows of different real routes into one fake route | Corrupts route identity and the lag features built per route | The cleaning log showed "rows involved in duplicated keys (aggregated)" greater than 0 on test data | Rows with an unusable station are now dropped and counted in the cleaning log |
+| 3 | Pierre-Olivier WAFO Bakam |  |  |  |  |  |
+| 4 | Hugo HOUPPE |  |  |  |  |  |
+| 5 | Yehor Nalyvaiko |  |  |  |  |  |
 
 ## Where to look in the Week 2 notebook (things the group must verify itself)
 These are open points in the AI-drafted code, not findings. Check each against the real file and write up what you actually observe.

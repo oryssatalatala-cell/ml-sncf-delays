@@ -22,4 +22,9 @@ jupyter nbconvert --to notebook --execute notebooks/02_week2_data_prep_baseline.
 Or open the notebook in Jupyter or VS Code and run all cells.
 
 ## Team
-See `ai_governance/CONTRIBUTIONS.md`.
+- Oryssa Stella TALATALA
+- Pierre-Olivier WAFO Bakam
+- Hugo HOUPPE
+- Yehor Nalyvaiko
+
+Work distribution: see `ai_governance/CONTRIBUTIONS.md`.
