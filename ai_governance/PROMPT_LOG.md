@@ -42,7 +42,7 @@ AI assistance (Claude) was used to explore project topics and approaches, to dra
   - Leakage guardrails: none given in the prompt. The temporal split, past-only lag features and train-only fitting were chosen by the assistant. The group must check them (see AI_AUDIT.md).
 - **Output summary:** a notebook with cleaning log, EDA, leakage audit table, temporal split, five regression baselines (global mean, route mean, persistence, seasonal naive, Ridge) and a classification view.
 - **What you kept, changed or rejected:** kept the structure; asked for a download step (see Prompt 2).
-- **How you verified it:** to complete (run on the real CSV, recompute lag1 for random rows by hand, check the target definition).
+- **How you verified it:** the group ran the notebook on the real dataset (12,907 raw rows, 26 columns) without errors. The column mapping selected the expected columns, the built-in assertions on the temporal split and on the lag merge passed, and we reviewed the cleaning log (73 rows with no scheduled trains removed) and the results tables.
 - **Link to AI_AUDIT.md entry:** entries 1 and 2.
 
 ### Prompt 2: data source and automatic download
@@ -56,7 +56,7 @@ AI assistance (Claude) was used to explore project topics and approaches, to dra
 - **Constraints given to the model:** the dataset had to be the one recommended earlier (SNCF TGV regularity); the URL had to be found by the assistant, not by the user.
 - **Output summary:** a download cell using the official data.gouv.fr CSV link, with a check that the answer is a CSV, a stored `download_info.txt`, and a clear error message with manual instructions if the download fails.
 - **What you kept, changed or rejected:** kept as is.
-- **How you verified it:** the assistant tested the "file already present" and "download blocked" branches. The real download is to complete (run it on a normal connection and check the file size and header).
+- **How you verified it:** the group ran the download on a normal connection. The file was downloaded automatically (2.9 MB) and loaded correctly with 12,907 rows and 26 columns.
 - **Link to AI_AUDIT.md entry:** entry 1.
 
 ### Other members
