@@ -1,6 +1,6 @@
 # CONTRIBUTIONS
 
-## Team members
+## Team members (Group 3)
 - Oryssa Stella TALATALA
 - Pierre-Olivier WAFO Bakam
 - Hugo HOUPPE

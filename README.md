@@ -21,7 +21,7 @@ jupyter nbconvert --to notebook --execute notebooks/02_week2_data_prep_baseline.
 ```
 Or open the notebook in Jupyter or VS Code and run all cells.
 
-## Team
+## Team (Group 3)
 - Oryssa Stella TALATALA
 - Pierre-Olivier WAFO Bakam
 - Hugo HOUPPE
