@@ -1,7 +1,5 @@
 # CONTRIBUTIONS
 
-Group: Group_XX
-
 ## Team members
 - Oryssa Stella TALATALA
 - Pierre-Olivier WAFO Bakam
