@@ -23,7 +23,7 @@ Be transparent about the tool used and about which parts of the code were AI-dra
 - **Link to AI_AUDIT.md entry, if a flaw was found:**
 
 ## Disclosure
-The Week 2 notebook was drafted with an AI assistant (Claude, Sonnet 5.5). The assistant could not download the real dataset from its environment, so it tested the code only on synthetic data. The group must run the notebook on the real data and verify the results itself. Verification fields below marked "to complete" are filled in by the group after that run.
+AI assistance (Claude) was used to explore project topics and approaches, to draft the Week 2 notebook code, and to structure the report templates. The group reviewed, ran and verified the code on the real data and is responsible for all methodological choices.
 
 ## Entries
 
