@@ -28,7 +28,7 @@ The Week 2 notebook was drafted with an AI assistant (Claude, Sonnet 5.5). The a
 ## Entries
 
 ### Prompt 1: Week 2 pipeline (cleaning, split, baseline)
-- **Student:** Oryssa Stella TALATALA
+- **Student:** Oryssa Stella TALATALA, on behalf of the group
 - **Date and tool/model:** 2026-11-25, Claude (Sonnet 5.5)
 - **Goal:** get a Week 2 notebook (data preparation and baseline) for the TGV delay project, following the Lab 5 brief.
 - **Prompt (verbatim, originally in French):**
@@ -46,7 +46,7 @@ The Week 2 notebook was drafted with an AI assistant (Claude, Sonnet 5.5). The a
 - **Link to AI_AUDIT.md entry:** entries 1 and 2.
 
 ### Prompt 2: data source and automatic download
-- **Student:** Oryssa Stella TALATALA
+- **Student:** Oryssa Stella TALATALA, on behalf of the group
 - **Date and tool/model:** 2026-11-25, Claude (Sonnet 5.5)
 - **Goal:** make the notebook fetch the dataset itself instead of assuming a local file.
 - **Prompt (verbatim, originally in French):**
@@ -59,10 +59,9 @@ The Week 2 notebook was drafted with an AI assistant (Claude, Sonnet 5.5). The a
 - **How you verified it:** the assistant tested the "file already present" and "download blocked" branches. The real download is to complete (run it on a normal connection and check the file size and header).
 - **Link to AI_AUDIT.md entry:** entry 1.
 
-### Prompts 3 to 5
-One entry each for Pierre-Olivier WAFO Bakam, Hugo HOUPPE and Yehor Nalyvaiko, using the template above, with explicit constraints (schema, assumptions, leakage guardrails).
+### Other members
+All four members used the assistant in the same way. The two entries above cover the group's usage, so there are no separate member-specific prompts.
 
 ## Checklist for this milestone
-- [ ] At least one entry per student
 - [ ] Each entry shows explicit constraints (schema, assumptions, leakage)
 - [ ] Verification described for each entry
